@@ -8,7 +8,7 @@ export const MessingAround = () => {
     const projets = [
         {
             name: "Simple Airstrike Game :'",
-            description: "This was a memorable project for me because even though I was just starting to learn about computers, I managed to finish this project myself... :')",
+            description: "This was a memorable project because even though I was just starting to learn about computers, I managed to finish this project myself... :')",
             url: game,
             type: 'image',
             repo: 'https://github.com/AnandaIlyasa/Tubes-Konsep-Pemrograman-Game-Sederhana'
