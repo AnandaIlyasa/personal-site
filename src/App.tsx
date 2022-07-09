@@ -1,18 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Box, IconButton, Tooltip, createTheme, Grid, Tab, Tabs, ThemeProvider, ToggleButton, Typography } from '@mui/material';
-import { orange } from '@mui/material/colors';
-import { HomeTab } from './Tabs/HomeTab';
+import { Box, IconButton, Tooltip, createTheme, Grid, Tabs, ThemeProvider, ToggleButton, Typography } from '@mui/material';
+import { Home } from './Tabs/Home';
 import CloseIcon from '@mui/icons-material/Close';
 import MinimizeIcon from '@mui/icons-material/Minimize';
-import { MessingAroundTab } from './Tabs/MessingAroundTab';
+import { MessingAround } from './Tabs/MessingAround';
 import CropSquareOutlinedIcon from '@mui/icons-material/CropSquareOutlined';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
+import { SeriousProject } from './Tabs/SeriousProject';
 
 declare module '@mui/material/styles' {
   interface Theme {
@@ -67,12 +66,12 @@ function App() {
   };
 
   const renderPanel = (value: string) => {
-    if (value === 'home') {
-      return (<HomeTab />)
-    } else if (value === 'messing') {
-      return (
-        <MessingAroundTab />
-      )
+    if (value === 'messing') {
+      return (<MessingAround />)
+    } else if (value === 'serious') {
+      return (<SeriousProject />)
+    } else {
+      return (<Home />)
     }
   }
 
@@ -88,13 +87,13 @@ function App() {
               // sx={{ backgroundColor: 'black' }}
               >
                 <ToggleButton value="home">
-                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>home... :)</Typography>
+                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>home... 🤗🤗🤗</Typography>
                 </ToggleButton>
                 <ToggleButton value="serious">
-                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>serious project... :D</Typography>
+                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>serious project... 🥸🥸</Typography>
                 </ToggleButton>
                 <ToggleButton value="messing">
-                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>messing around... :))</Typography>
+                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>messing around... 😆😆</Typography>
                 </ToggleButton>
                 <Box paddingTop={1.5} marginLeft={1}>
                   <AddOutlinedIcon />
@@ -109,7 +108,7 @@ function App() {
               <CloseIcon fontSize='large' />
             </Grid>
           </Grid>
-          <Grid container bgcolor='#222831' paddingRight={2} marginBottom={3} justifyContent='flex-end'>
+          <Grid container bgcolor='#222831' paddingRight={2} justifyContent='flex-end'>
             <Tooltip title="Whatsapp" arrow>
               <IconButton href='https://wa.me/6287863238629?text=I come from your website : ' target="_blank">
                 <WhatsAppIcon htmlColor='white' />
@@ -134,7 +133,7 @@ function App() {
           <br />
           <Grid
             container
-            height='85%'
+            height='80%'
             direction="row"
             alignItems="stretch"
             justifyContent="center"
