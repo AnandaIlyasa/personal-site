@@ -146,7 +146,7 @@ function App() {
             }
           </Grid>
         </Box>
-        <Typography position='absolute' fontSize='small' bottom={5} left='47%' variant='subtitle2' bgcolor='#3F4E4F' color='lightgray' fontWeight='bold' align='center'>MekBook Aer</Typography>
+        <Typography position='absolute' fontSize='small' bottom={5} left='47.5%' variant='subtitle2' bgcolor='#3F4E4F' color='lightgray' fontWeight='bold' align='center'>MekBook Aer</Typography>
       </Box>
     </ThemeProvider>
   );
