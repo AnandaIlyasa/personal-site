@@ -24,7 +24,7 @@ export const MessingAround = () => {
         },
         {
             name: "Arithmetic Turing Machine Simulator",
-            description: "I try to remake my college final project while also learning about Webflux which is one of reactive streams technology implementation in Java. Webapp / frontend for this project will be available soon..🙏🙏🙂",
+            description: "I try to remake my college final project while also learning about Webflux which is one of reactive streams technology implementation in Java. Webapp / frontend for this project will be available soon..🙏🙂",
             url: tm,
             type: 'image',
             repo: 'https://github.com/AnandaIlyasa/reactive-tm-be'
