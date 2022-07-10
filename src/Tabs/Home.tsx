@@ -13,7 +13,7 @@ export const Home = () => {
             >
                 <Grid item xs={5}>
                     <Box paddingLeft={15}>
-                        <img src={dp} height='400px' alt='profile picture' />
+                        <img src={dp} height='400px' alt='profile' />
                     </Box>
                 </Grid>
                 <Grid item xs={7}>
