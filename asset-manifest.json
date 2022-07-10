@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/personal-site/static/css/main.073c9b0a.css",
-    "main.js": "/personal-site/static/js/main.4847172a.js",
+    "main.js": "/personal-site/static/js/main.bcd465f8.js",
     "static/js/787.a7027abf.chunk.js": "/personal-site/static/js/787.a7027abf.chunk.js",
-    "static/media/tm.png": "/personal-site/static/media/tm.85bd32a7ad9872c46c00.png",
+    "static/media/tm.png": "/personal-site/static/media/tm.394e110376b1c7408bda.png",
     "static/media/cashier.png": "/personal-site/static/media/cashier.5ad78fc889f0d960b403.png",
     "static/media/my_beloved_game.png": "/personal-site/static/media/my_beloved_game.99cda2de74a8db257513.png",
     "static/media/jrwt-polos.svg": "/personal-site/static/media/jrwt-polos.badf651518d0ad12d23e4f7f665f547c.svg",
     "static/media/bahanbaku.jpeg": "/personal-site/static/media/bahanbaku.b897c78b969a19c1dd17.jpeg",
     "index.html": "/personal-site/index.html",
     "main.073c9b0a.css.map": "/personal-site/static/css/main.073c9b0a.css.map",
-    "main.4847172a.js.map": "/personal-site/static/js/main.4847172a.js.map",
+    "main.bcd465f8.js.map": "/personal-site/static/js/main.bcd465f8.js.map",
     "787.a7027abf.chunk.js.map": "/personal-site/static/js/787.a7027abf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.4847172a.js"
+    "static/js/main.bcd465f8.js"
   ]
 }
