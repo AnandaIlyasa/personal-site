@@ -86,13 +86,13 @@ function App() {
                 onChange={handleChange}
               >
                 <ToggleButton value="home">
-                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>home... 🤗🤗🤗</Typography>
+                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>home...</Typography>
                 </ToggleButton>
                 <ToggleButton value="serious">
-                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>serious project... 🥸🥸</Typography>
+                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>serious project...</Typography>
                 </ToggleButton>
                 <ToggleButton value="messing">
-                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>messing around... 😆😆</Typography>
+                  <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>messing around...</Typography>
                 </ToggleButton>
                 <Box paddingTop={1.5} marginLeft={1}>
                   <AddOutlinedIcon />
@@ -143,7 +143,7 @@ function App() {
           </Grid>
         </Box>
       </Box>
-      <Typography variant='subtitle2' color='gray' fontFamily='sans-serif' align='center'>Copyright © Developed by Ilyas | anjayy...🤣</Typography>
+      <Typography variant='subtitle2' color='gray' fontFamily='sans-serif' align='center'>Copyright © Developed by Ilyas</Typography>
     </ThemeProvider>
   );
 }
