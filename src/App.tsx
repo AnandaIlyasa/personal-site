@@ -77,8 +77,12 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Box paddingX={5} paddingTop={5} paddingBottom={2} height='88vh'>
-        <Box boxShadow={3} height='100%' border={3} borderRadius={2}>
+      <Box padding={4} border={3} borderRadius={2} bgcolor='#3F4E4F' height='90vh'>
+        <Box position='absolute' width={80} height={20} top={8} left='47%' borderRadius='10%'>
+          <Box position='absolute' bgcolor='lightgray' border={7} borderColor='black' width={5} height={5} top='5%' left='25%' borderRadius='50%'></Box>
+          <Box position='absolute' bgcolor='lightgray' width={5} height={5} top='38%' left='65%' borderRadius='50%'></Box>
+        </Box>
+        <Box boxShadow={5} height='99%' border={4} padding={0.1} borderRadius={2} bgcolor='whitesmoke'>
           <Grid container direction='row' borderBottom={3} alignItems='center'>
             <Grid item xs={10}>
               <Tabs
@@ -142,8 +146,8 @@ function App() {
             }
           </Grid>
         </Box>
+        <Typography position='absolute' fontSize='small' bottom={5} left='47%' variant='subtitle2' bgcolor='#3F4E4F' color='lightgray' fontWeight='bold' align='center'>MekBook Aer</Typography>
       </Box>
-      <Typography variant='subtitle2' color='gray' fontFamily='sans-serif' align='center'>Copyright © Developed by Ilyas</Typography>
     </ThemeProvider>
   );
 }
