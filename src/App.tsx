@@ -77,14 +77,13 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Box padding={5} height='88vh'>
+      <Box paddingX={5} paddingTop={5} paddingBottom={2} height='88vh'>
         <Box boxShadow={3} height='100%' border={3} borderRadius={2}>
           <Grid container direction='row' borderBottom={3} alignItems='center'>
             <Grid item xs={10}>
               <Tabs
                 value={value}
                 onChange={handleChange}
-              // sx={{ backgroundColor: 'black' }}
               >
                 <ToggleButton value="home">
                   <Typography pl={1} align='left' color='black' fontWeight='bold' width='100%'>home... 🤗🤗🤗</Typography>
@@ -144,6 +143,7 @@ function App() {
           </Grid>
         </Box>
       </Box>
+      <Typography variant='subtitle2' color='gray' fontFamily='sans-serif' align='center'>Copyright © Developed by Ilyas | anjayy...🤣</Typography>
     </ThemeProvider>
   );
 }
