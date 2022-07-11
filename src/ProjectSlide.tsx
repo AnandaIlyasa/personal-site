@@ -27,7 +27,7 @@ const Item = ({ props }: { props: { name: string, description: string, url: stri
                     {
                         props.type === 'video' ?
                             (<ReactPlayer url={props.url} playbackRate={1.5} width='500px' height='290px' />) :
-                            (<img width='500px' height='290px' src={props.url} alt='project ilustration' />)
+                            (<img width='500px' style={{ objectFit: 'contain', objectPosition: 'center' }} height='290px' src={props.url} alt='project ilustration' />)
                     }
                 </Grid>
                 <Grid item>
